@@ -1,0 +1,3 @@
+[submodule "modules/GMPlatformer"]
+	path = modules/GMPlatformer
+	url = git@github.com:M0liusX/GMPlatformer.git
