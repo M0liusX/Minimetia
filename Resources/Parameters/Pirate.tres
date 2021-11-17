@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://modules/GMPlatformer/Scripts/Actors/PlatformerCharacterMeta.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+walkSpeed = 4.0
+walkAcceleration = 25.0
+walkFriction = 0.1
+midairAcceleration = 10.0
+midairFriction = 0.05
+dashSpeed = 12.0
+dashAcceleration = 10.0
+dashBufferSize = 6
+jumpVelocity = 13.0
+dashJumpVelocity = 1.2
+floatGravity = 0.5
+gravity = 49.0
+IdleAnimation = "Idle"
+WalkAnimation = "Walk"
+JumpStartAnimation = "JumpStart"
+JumpEndAnimation = "JumpEnd"
+MidairIdleAnimation = "MidAirIdle"
+MidairWalkAnimation = "MidAirWalk"
